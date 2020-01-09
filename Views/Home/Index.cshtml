@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    Fullness: @ViewBag.Dachi.fullness Happiness: @ViewBag.Dachi.happiness Meals: @ViewBag.Dachi.meals Energy: @ViewBag.Dachi.energy
+    <div class="container">
+        <h3>@ViewBag.msg</h3>
+    </div>
+    <a href="/feed" class="btn btn-success">Feed</a>
+    <a href="/play" class="btn btn-success">Play</a>
+    <a href="/work" class="btn btn-success">Work</a>
+    <a href="/sleep" class="btn btn-success">Sleep</a>
+</div>
